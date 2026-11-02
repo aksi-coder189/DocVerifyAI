@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.1",
+  "document_types": {
+    "marksheet": {
+      "labels": [
+        "marksheet",
+        "marks sheet",
+        "statement of marks",
+        "marks statement",
+        "marks statement cum certificate",
+        "secondary school examination",
+        "secondary school certificate",
+        "higher secondary certificate"
+      ],
+      "aliases": {
+        "student_name": [
+          "student name",
+          "candidate name",
+          "name"
+        ],
+        "roll_number": [
+          "roll number",
+          "roll no",
+          "roll no.",
+          "registration number",
+          "registration no",
+          "register number",
+          "enrollment number"
+        ],
+        "exam_year": [
+          "exam year",
+          "year of examination",
+          "academic year",
+          "year"
+        ],
+        "result_status": [
+          "result status",
+          "result",
+          "status"
+        ],
+        "issuing_authority": [
+          "issuing authority",
+          "board",
+          "examining authority"
+        ]
+      },
+      "display_name": "Marksheet"
+    },
+    "transcript": {
+      "labels": [
+        "transcript",
+        "academic record",
+        "statement of grades"
+      ],
+      "aliases": {
+        "student_name": [
+          "student name",
+          "candidate name",
+          "name"
+        ],
+        "roll_number": [
+          "student number",
+          "registration number",
+          "registration no",
+          "roll number"
+        ],
+        "exam_year": [
+          "year",
+          "academic year",
+          "graduation year"
+        ],
+        "issuing_authority": [
+          "university",
+          "issuing authority",
+          "institution"
+        ]
+      },
+      "display_name": "University transcript"
+    },
+    "degree_certificate": {
+      "labels": [
+        "degree certificate",
+        "bachelor of",
+        "master of",
+        "degree awarded"
+      ],
+      "aliases": {
+        "student_name": [
+          "student name",
+          "candidate name",
+          "name"
+        ],
+        "credential": [
+          "degree",
+          "qualification",
+          "credential",
+          "award"
+        ],
+        "issue_date": [
+          "issue date",
+          "date of issue",
+          "date conferred"
+        ],
+        "issuing_authority": [
+          "university",
+          "issuing authority",
+          "institution"
+        ]
+      },
+      "display_name": "Degree certificate"
+    },
+    "bonafide_certificate": {
+      "labels": [
+        "bonafide",
+        "bonafide certificate",
+        "bona fide"
+      ],
+      "aliases": {
+        "student_name": [
+          "student name",
+          "candidate name",
+          "name"
+        ],
+        "issuing_authority": [
+          "institution",
+          "college",
+          "issuing authority"
+        ]
+      },
+      "display_name": "Bonafide certificate"
+    },
+    "student_id": {
+      "labels": [
+        "student identity",
+        "identity card",
+        "student id",
+        "student identity card"
+      ],
+      "aliases": {
+        "student_name": [
+          "student name",
+          "name"
+        ],
+        "roll_number": [
+          "student number",
+          "student id",
+          "roll number"
+        ],
+        "issuing_authority": [
+          "institution",
+          "college",
+          "university"
+        ]
+      },
+      "display_name": "Student identity card"
+    },
+    "unknown": {
+      "display_name": "Unknown or unsupported",
+      "labels": [],
+      "aliases": {}
+    }
+  },
+  "boards": {
+    "CBSE": {
+      "labels": [
+        "central board of secondary education",
+        "cbse"
+      ],
+      "aliases": {
+        "student_name": [
+          "candidate name"
+        ],
+        "roll_number": [
+          "roll number",
+          "roll no.",
+          "admission number"
+        ]
+      }
+    },
+    "CISCE": {
+      "labels": [
+        "council for the indian school certificate examinations",
+        "cisce",
+        "icse",
+        "isc"
+      ],
+      "aliases": {
+        "student_name": [
+          "candidate name"
+        ],
+        "roll_number": [
+          "unique id",
+          "index number",
+          "registration number"
+        ]
+      }
+    },
+    "State Board": {
+      "labels": [
+        "state board"
+      ],
+      "aliases": {
+        "student_name": [
+          "candidate name"
+        ],
+        "roll_number": [
+          "register number",
+          "registration number"
+        ]
+      }
+    }
+  },
+  "subject_table_headers": [
+    "subject",
+    "maximum marks",
+    "marks obtained",
+    "total marks",
+    "grade"
+  ]
+}

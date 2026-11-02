@@ -1,0 +1,20 @@
+[
+  {
+    "source_title": "DocVerifyAI sample marksheet checklist",
+    "issuer": "DocVerifyAI demo corpus",
+    "document_type": "marksheet",
+    "page": 1,
+    "passage": "For this demonstration checklist, a marksheet review may record the student's name, examination year, roll or registration number, result status, and issuing authority when those details are visible. This sample is not an official requirement.",
+    "policy_date": null,
+    "board": null
+  },
+  {
+    "source_title": "DocVerifyAI sample certificate checklist",
+    "issuer": "DocVerifyAI demo corpus",
+    "document_type": "degree_certificate",
+    "page": 1,
+    "passage": "For this demonstration checklist, a certificate review should record the visible student name, credential or award, and issuing authority. This sample is not an official requirement.",
+    "policy_date": null,
+    "board": null
+  }
+]

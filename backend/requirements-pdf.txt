@@ -1,0 +1,2 @@
+-r requirements.txt
+# Compatibility requirements file; PyMuPDF is part of normal PDF support.

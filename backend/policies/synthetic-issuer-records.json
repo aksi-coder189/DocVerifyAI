@@ -1,0 +1,32 @@
+{
+  "provider": "DocVerifyAI synthetic demo (simulated)",
+  "simulated": true,
+  "records": [
+    {
+      "record_id": "SYNTHETIC-DEMO-001",
+      "document_type": "marksheet",
+      "student_name": "Aarav Sharma",
+      "roll_number": "DEMO-2025",
+      "exam_year": "2025",
+      "synthetic": true
+    },
+    {
+      "record_id": "SYNTHETIC-DEMO-MISMATCH",
+      "document_type": "marksheet",
+      "student_name": "Synthetic Example",
+      "roll_number": "DEMO-MISMATCH",
+      "exam_year": "2025",
+      "scenario": "mismatch",
+      "synthetic": true
+    },
+    {
+      "record_id": "SYNTHETIC-DEMO-UNAVAILABLE",
+      "document_type": "marksheet",
+      "student_name": "Synthetic Example",
+      "roll_number": "DEMO-UNAVAILABLE",
+      "exam_year": "2025",
+      "scenario": "unavailable",
+      "synthetic": true
+    }
+  ]
+}

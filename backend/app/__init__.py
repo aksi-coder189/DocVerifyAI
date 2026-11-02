@@ -1,0 +1,1 @@
+"""DocVerifyAI local-first backend."""

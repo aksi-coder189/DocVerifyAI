@@ -1,0 +1,4 @@
+-r requirements.txt
+"""Optional isolated forest baseline. The model dependency is not required to run the API."""
+scikit-learn>=1.4,<2
+joblib>=1.3

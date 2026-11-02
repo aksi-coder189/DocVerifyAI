@@ -1,0 +1,2 @@
+# Compatibility include: image OCR Python dependencies are part of the normal install.
+-r requirements.txt

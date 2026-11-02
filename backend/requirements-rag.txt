@@ -1,0 +1,3 @@
+-r requirements.txt
+# Optional local semantic retrieval (downloads model weights on first explicit index build)
+sentence-transformers>=3.0,<6
